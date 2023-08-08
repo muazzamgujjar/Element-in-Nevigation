@@ -1,0 +1,35 @@
+.nav {
+    border: 10cap;
+    background-color: brown
+    padding10;
+    border-bottom: 1px solid black;
+  }
+  .h1{
+    background-color: brown;
+  }
+  
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .crumb {
+    display: inline-block;
+  }
+  
+.crumb a::after {
+    display: inline-block;
+    color: #290909;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+  }
+  .container{
+font-family: sans-serif;
+border: #290909;
+background-color: antiquewhite;
+padding-left: 2cm;
+font-style: oblique;
+font-weight: 100;
+  }
